@@ -1,0 +1,32 @@
+{
+  "name": "tesisback",
+  "author": "codigoenigma",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon --exec npm start"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.2",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "nodemailer": "^6.7.5",
+    "randomstring": "^1.2.2",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": ">=12.14.0"
+  }
+}
